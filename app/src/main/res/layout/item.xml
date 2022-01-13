@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:id="@+id/itemLayout"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="3dp"
+            android:text="Outbreak The Nightmare Chronicles Chapter 2"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDes"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#212020"
+            android:paddingLeft="3dp"
+            android:text="Outbreak The Nightmare Chronicles Chapter 2 Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.
+Experience the second chapter in Outbreak: The Nightmare Chronicles. Lydia’s fight for survival in the manor has taken her into the tunnels underneath. What horrors will she discover as she attempts to escape the nightmare?"
+
+            />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="right|center"
+            android:paddingLeft="3dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="200$"
+            android:textColor="#b30808"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

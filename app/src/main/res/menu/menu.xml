@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Recycled_View"
+    >
+
+    <item
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/setting">
+
+        <menu>
+            <item
+                android:id="@+id/personSetting"
+                android:title="Person Setting"
+                app:showAsAction="never"></item>
+
+            <item
+                android:id="@+id/showBuying"
+                android:title="My Games"
+                app:showAsAction="never"></item>
+
+            <item
+                android:id="@+id/logOut"
+                android:title="Log Out"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+
+</menu>
